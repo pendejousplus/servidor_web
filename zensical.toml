@@ -1,0 +1,3 @@
+site_name = "Documentación AE2.1 — Despliegue Estático con NGINX"
+docs_dir = "docs"
+site_dir = "site"
