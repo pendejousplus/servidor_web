@@ -6,6 +6,7 @@ Se creará un sitio web estático utilizando Zensical con servidor web Nginx.
 
 - [Entorno e instalación](#entorno-e-instalacion)
 - [Configuración](#configuracion)
+- [Proyecto complementario: Jekyll](#proyecto-complementario-jekyll)
 - [Comprobación](#comprobacion)
 - [Problemas encontrados y solución](#problemas-encontrados-y-solucion)
 - [Repositorio remoto](#repositorio-remoto)
@@ -64,6 +65,9 @@ Se han tocado tres bloques fundamentales:
    ```
 
 Además, la salida generada por Zensical se almacena en `site/` y está lista para desplegarse en un servidor HTTP estático. En esta práctica, se usa NGINX como servidor final de despliegue.
+
+## Proyecto complementario: Jekyll
+El repositorio también incluye un sitio personal generado con Jekyll y servido por NGINX en el puerto 8080. Su despliegue es independiente de la documentación de Zensical, que se sirve en el puerto 80. La guía de instalación, compilación y publicación está en [Despliegue de sitio personal con Jekyll](despliegue-jekyll.md).
 
 ## Comprobación
 Se realizaron comprobaciones para verificar el estado del repositorio y la configuración del sitio. Los comandos principales fueron:
